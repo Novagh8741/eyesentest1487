@@ -791,6 +791,7 @@ gap: 20px;
     padding: 10px;
     text-decoration: none;
     color: black;
+    margin: 0 10px;
 }
 .nav-top {
     height: max-content;
