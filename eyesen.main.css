@@ -811,6 +811,10 @@ gap: 20px;
     font-size: 14px;
 }
 
+.serachIcon {
+    right: 9px;
+}
+
 .welcome-board {
     height: max-content;
     padding: 30px 20px;
@@ -855,15 +859,14 @@ gap: 20px;
 
 .sideNav {
     display: flex;
-    width:95%;
-    overflow: unset;
+    width:100%;
+    overflow: scroll;
     justify-content: center;
     height: max-content;
     border: 1px solid var(--mainblue);
     border-radius: 10px;
-    padding: 0px;
-    margin: 0 auto;
-  
+    padding: 0px 10px;
+    margin: 0 auto; 
 }
 
 .middle-con {
@@ -927,8 +930,13 @@ gap: 20px;
     padding: 0;
 }
 
+.head-name {
+    width: 100%;
+}
+
 .prod {
-    width: 60px;
+    width: 100%;
+    margin: 0 5px;
 }
 
 
