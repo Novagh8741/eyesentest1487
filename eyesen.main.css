@@ -784,20 +784,25 @@ gap: 20px;
 .nav-top {
     height: max-content;
     background-color: var(--mainblue);
-    padding: 30px 5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
+    padding: 20px;
+    display: block;
     position: relative;
     top: 0rem;
     z-index: 10;
 }
 
+.search-box {
+    width: 100%;
+    position: relative;
+    margin: 20px 0 0;
+}
 
 .settings-login-con {
     display: flex;
     gap: 10px;
+    position: absolute;
+    right: 20px;
+    top: 29px;
 }
 
 .top-search{
@@ -840,7 +845,7 @@ gap: 20px;
 }
 
 .left-side {
-    width: 170px;
+    width: 100%;
     height: max-content;
     position: relative;
     top: 0;
@@ -850,20 +855,27 @@ gap: 20px;
 
 .sideNav {
     display: flex;
-    width: 374px;
-    overflow: overlay;
+    width:95%;
+    overflow: unset;
     justify-content: center;
     height: max-content;
     border: 1px solid var(--mainblue);
     border-radius: 10px;
     padding: 0px;
-    position: sticky;
-    top: 20px;
+    margin: 0 auto;
+  
 }
 
 .middle-con {
     width: 100%;
     /* background-color: #f9f9f9; */
+}
+
+.innner-price-con {
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .story-main {
@@ -911,6 +923,15 @@ gap: 20px;
 }
 
 
+.fuelPrice-con {
+    padding: 0;
+}
+
+.prod {
+    width: 60px;
+}
+
+
 .footer {
     width: 100%;
     height: max-content;
@@ -922,13 +943,16 @@ gap: 20px;
 .footer-sub {
     width: 100%;
     display: block;
-    padding: 20px 20px 10px;
+    padding: 20px;
+}
+
+.footer-sub  .sections{
+    width: 100%;
 }
 
 
-.footer .sections {
-    width: 100%;
-    height: 70px;
+.footer-sub.bottom .sections {
+  height:max-content;
 }
 
 .footer-sub.bottom {
@@ -936,6 +960,41 @@ gap: 20px;
     display: flex;
     flex-wrap: wrap;
 }
+
+
+.footer .sections .textInfo {
+    width: 100%;
+}
+
+
+.footer-sub.bottom .newsletter-sub-info {
+    display: block;
+    width: 100%;
+}
+
+
+.td-name {
+    max-width: 200px;
+    height: max-content;
+    font-size: 12px;
+    text-wrap-mode: wrap;
+}
+
+
+.travel-distance {
+    gap: 10px;
+}
+
+.page-name {
+    font-size: 17px;
+}
+
+
+.search-btn {
+    width: 30px;
+    height: 25px;
+}
+
 
 
 
