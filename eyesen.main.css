@@ -934,9 +934,14 @@ gap: 20px;
     width: 100%;
 }
 
+.head-name .name1 {
+    width: 80px;
+    display: flex;
+}
+    
 .prod {
     min-width: 50px;
-    padding: 0 10px;
+    margin: 0 5px;
 }
 
 
