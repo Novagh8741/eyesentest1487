@@ -860,7 +860,8 @@ gap: 20px;
 .sideNav {
     display: flex;
     width:100%;
-    overflow: scroll;
+    overflow-x: scroll;
+    overflow-y: hidden;
     justify-content: center;
     height: max-content;
     border: 1px solid var(--mainblue);
