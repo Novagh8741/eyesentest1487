@@ -797,7 +797,7 @@ gap: 20px;
     background-color: var(--mainblue);
     padding: 20px;
     display: block;
-    position: relative;
+    position: sticky;
     top: 0rem;
     z-index: 10;
 }
