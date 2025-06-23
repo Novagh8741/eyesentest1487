@@ -862,10 +862,12 @@ gap: 20px;
 .left-side {
     width: 100%;
     height: max-content;
-    position: relative;
-    top: 0;
-    padding-top: 20px;
+    position: sticky;
+    top: 159px;
+    padding-top: 8px;
     margin-top: 0;
+    z-index: 20;
+    background-color: white;
 }
 
 
