@@ -603,4 +603,342 @@ gap: 20px;
 
 
 
+/* fuel page css below .................................................... */
+
+.fuelPrice-con{
+    height: max-content;
+    background-color: var(--siteGrey2);
+    padding: 10px;
+}
+
+.innner-price-con{
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+}
+
+.head-name{
+    display: flex;
+    font-size: 12px;
+    gap: 10px;
+    padding: 5px 10px;
+    border: 1px solid var(--mainblue);
+    width: max-content;
+    font-weight: 600;
+}
+
+.head-name.comp-prices{
+     font-weight: 300;
+}
+
+.head-name.comp-prices{
+     font-size: 11px;
+}
+
+.head-name .name1{
+    width: 100px;
+ 
+    display: flex;
+}
+
+.head-name .name1 span{
+    width: 25px;
+    height: 25px;
+    background-color: var(--mainblue);
+    margin-right: 5px;
+}
+
+.head-name .name1 span img{
+    display: none;
+}
+
+
+.prod{
+    width: 50px;
+    margin: 0 5px;
+}
+
+
+
+/* transport fare css here....................................................... */
+
+.transport-fare-con{
+    margin: 0 0 20px;
+}
+
+.tabs{
+    display: flex;
+    gap: 10px;
+}
+
+.tab{
+    display: block;
+    width: 50%;
+    padding: 10px;
+    background-color: var(--siteGrey2);
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    font-size: 12px;
+}
+
+.tab.active{
+    background-color: var(--mainblue);
+    color: white;
+}
+
+.tab:hover{
+    background-color: var(--secblue);
+    color: white;
+}
+
+.fuelPrice-con{
+    background-color: transparent;
+}
+
+.company-name-here{
+    font-weight: 600;
+    margin: 10px 0 5px;
+}
+
+.pricing-box{
+    width: 100%;
+    height: max-content;
+    background-color: var(--siteGrey2);
+    padding: 10px;
+    gap: 20px;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.group-list{
+    width: 50%;
+   
+}
+
+.travel-distance{
+    display:flex;
+    border-bottom: 1px solid var(--mainblue);
+    padding: 5px 0;
+     justify-content: space-between;
+}
+
+.td-name{
+    max-width: 250px;
+    height: 20px;
+    /* background-color: red; */
+    display: block;
+}
+
+.td-price{
+    color: var(--secblue);
+    font-weight: 700;
+}
+
+
+.submitBtn.transport{
+    padding: 10px 30px;
+    margin: 10px 0;
+}
+
+
+/* forex table css ............................................. */
+
+.stations-grp.forextable{
+    margin: 0 0 20px;
+}
+
+.stations-grp.forextable .head-name.comp-prices .name1{
+    height: 50px;
+}
+
+
+.currency1{
+    display: flex;
+    gap: 10px;
+}
+
+
+
+
+
+/* mobile responsive css here .................................................. */
+
+@media screen and (max-width: 480px) {
+
+.main-container {
+    width: 100%;
+    height: max-content;
+    position: relative;
+}
+
+.sideNav a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-top {
+    height: max-content;
+    background-color: var(--mainblue);
+    padding: 30px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+    top: 0rem;
+    z-index: 10;
+}
+
+
+.settings-login-con {
+    display: flex;
+    gap: 10px;
+}
+
+.top-search{
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.welcome-board {
+    height: max-content;
+    padding: 30px 20px;
+}
+
+.welcome-text {
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+.welcome-text h1 {
+    font-size: 35px;
+}
+
+.welcome-text p {
+    font-size: 13px;
+}
+
+
+.welcome-board .ban-photo {
+    width: 180px;
+    position: relative;
+    bottom: 0;
+    right: 0;
+}
+
+
+.content-container {
+    display: block;
+    position: relative;
+}
+
+.left-side {
+    width: 170px;
+    height: max-content;
+    position: relative;
+    top: 0;
+    padding-top: 20px;
+    margin-top: 0;
+}
+
+.sideNav {
+    display: flex;
+    width: 374px;
+    overflow: overlay;
+    justify-content: center;
+    height: max-content;
+    border: 1px solid var(--mainblue);
+    border-radius: 10px;
+    padding: 0px;
+    position: sticky;
+    top: 20px;
+}
+
+.middle-con {
+    width: 100%;
+    /* background-color: #f9f9f9; */
+}
+
+.story-main {
+    height: max-content;
+    width: 100%;
+    display: block;
+    margin: 0 0 20px;
+}
+.photo-con {
+    width: 100%;
+}
+
+.text-con {
+    width: 100%;
+    padding: 20px;
+}
+
+.min-stories {
+    display: block;
+}
+
+.min-stories a {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    margin: 10px 0 15px;
+}
+
+.Section-News-AdSpace {
+    height: max-content;
+    /* background-color: rgb(212, 212, 212); */
+    display: block;
+}
+
+.Section-News-con {
+    width: 100%;
+    padding: 10px;
+}
+
+.Adspace-3by6 {
+    width: 100%;
+}
+.topNews.submitFares {
+    width: 100%; 
+}
+
+
+.footer {
+    width: 100%;
+    height: max-content;
+    background-color: var(--footerblue);
+    z-index: 5;
+    position: relative;
+}
+
+.footer-sub {
+    width: 100%;
+    display: block;
+    padding: 20px 20px 10px;
+}
+
+
+.footer .sections {
+    width: 100%;
+    height: 70px;
+}
+
+.footer-sub.bottom {
+    border-bottom: 0px solid var(--secblue);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+}
+
 
